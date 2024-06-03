@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --text-button: #fff;
+    --background: #1a1a1a;
+    --border-button: #808080;
+    --text-default: #fafafa;
+}
+body{
+    background-color: var(--background);
+    color: var(--text-default);
+    font-size: 1rem;
+}

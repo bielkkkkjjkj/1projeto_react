@@ -1,0 +1,27 @@
+.layout__box{
+    width: 35%;
+    padding: 1rem;
+}
+h1{
+    font-size: 4rem;
+}
+p{
+    font-size: 2rem;
+    text-align: justify;
+    line-height: a;
+}
+button{
+    margin-top: 0.5rem;
+    width: 277px;
+    height: 50px;
+    border-radius: 999px;
+    background-color: transparent;
+    color: var(--text-button);
+    border: 1px solid var(--border-button);
+    transition: color 0.5s, border 0.5s;
+}
+button:hover{
+    color: aquamarine;
+    border: 1px solid aquamarine;
+
+}
